@@ -122,3 +122,4 @@ struct stmfx {
 int stmfx_function_enable(struct stmfx *stmfx, u32 func);
 int stmfx_function_disable(struct stmfx *stmfx, u32 func);
 #endif
+

@@ -561,3 +561,4 @@ module_i2c_driver(stmfx_driver);
 MODULE_DESCRIPTION("STMFX core driver");
 MODULE_AUTHOR("Amelie Delaunay <amelie.delaunay@st.com>");
 MODULE_LICENSE("GPL v2");
+
