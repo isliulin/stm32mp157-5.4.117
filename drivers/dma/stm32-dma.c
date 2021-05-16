@@ -787,8 +787,6 @@ static int stm32_dma_mdma_flush_remaining(struct stm32_dma_chan *chan)
 		}
 		stm32_dma_disable_chan(chan);
 
-		list_del(&vdesc->node);
-
 		src_buf = mchan->sram_buf + ((len / mchan->sram_period) & 0x1)
 			* mchan->sram_period;
 		dst_buf = sg_dma_address(&sg_req->stm32_sgl_req) + len -
